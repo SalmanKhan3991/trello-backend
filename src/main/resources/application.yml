@@ -1,0 +1,11 @@
+server:
+  port: ${port:8080}
+  tomcat.max-http-header-size: 12288
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: userdb
